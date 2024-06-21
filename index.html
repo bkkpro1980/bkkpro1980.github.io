@@ -1,24 +1,26 @@
-body, html {
+body {
+  font-family: "Arial";
+  color: #fff;
+}
+
+.page-bg {
+  background: url('https://raw.githubusercontent.com/bkkpro1980/bkkpro1980.github.io/main/images/backgroundPurple1.png');
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.bg-image {
-  /* The image used */
-  background-image: url("images/backgroundPurple1.png")
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+<h1>
+  This is a title
+  </h1>
+  
+  <div class="page-bg">
+  </div>
