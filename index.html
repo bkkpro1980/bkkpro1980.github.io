@@ -2,6 +2,44 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.button {
+  background-color: rgba(0, 0, 0, .2);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.buttonDisc {
+  color: white;
+  border: 2px solid #FFFFFF;
+}
+
+.buttonDisc:hover {
+  background-color: rgba(200, 200, 200, 0.5);;
+  color: white;
+}
+
+.buttonAddRblx {
+  color: white;
+  border: 2px solid #FFFFFF;
+}
+
+.buttonAddRblx:hover {
+  background-color: rgba(200, 200, 200, 0.5);;
+  color: white;
+}
+</style>
+
 <style>
 body, html {
   height: 100%;
@@ -18,8 +56,8 @@ body, html {
   background-image: url("https://raw.githubusercontent.com/bkkpro1980/bkkpro1980.github.io/main/images/bgPurple1.png");
   
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(16px);
+  -webkit-filter: blur(16px);
   
   /* Full height */
   height: 100%; 
@@ -53,9 +91,17 @@ body, html {
 <div class="bg-image"></div>
 
 <div class="bg-text">
-  <h2>Blurred Background</h2>
-  <h1 style="font-size:50px">I am John Doe</h1>
-  <p>And I'm a Photographer</p>
+  <h2>Hi! Welcome to our website!</h2>
+  <h1 style="font-size:50px">Free Scripts</h1>
+  <p>This is a free service for people who doesn't know how to code that well</p>
+  
+  <a href="https://discord.com/invite/4X3fn6s62W">
+  <button class="button buttonDisc">Discord</button>
+  </a>
+  
+  <a href="https://www.roblox.com/users/1606513226/profile">
+  <button class="button buttonDisc">Find the owner on Roblox</button>
+  </a>
 </div>
 
 </body>
